@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>account</key>
+		<array>
+			<string>account</string>
+			<string>accnt</string>
+			<string>acct</string>
+			<string>account#</string>
+			<string>accnt#</string>
+			<string>acct#</string>
+			<string>account #</string>
+			<string>accnt #</string>
+			<string>acct #</string>
+			<string>account number</string>
+			<string>accnt number</string>
+			<string>acct number</string>
+		</array>
+	</dict>
+	<dict>
+		<key>job</key>
+		<array>
+			<string>job</string>
+			<string>job#</string>
+			<string>job #</string>
+			<string>job number</string>
+			<string>job nmbr</string>
+		</array>
+	</dict>
+</array>
+</plist>

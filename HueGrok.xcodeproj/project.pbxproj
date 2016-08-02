@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3890A0A1D51123800FAFB09 /* PredictionDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3890A081D51123800FAFB09 /* PredictionDictionary.plist */; };
+		C3890A0B1D51123800FAFB09 /* PredictionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3890A091D51123800FAFB09 /* PredictionEngine.swift */; };
 		CE6858421D4E6F2D00FD72C5 /* Hueframework.h in Headers */ = {isa = PBXBuildFile; fileRef = CE6858411D4E6F2D00FD72C5 /* Hueframework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE6858461D4E6F2D00FD72C5 /* Hueframework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE68583F1D4E6F2C00FD72C5 /* Hueframework.framework */; };
 		CE6858471D4E6F2D00FD72C5 /* Hueframework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE68583F1D4E6F2C00FD72C5 /* Hueframework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -52,6 +54,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C3890A081D51123800FAFB09 /* PredictionDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PredictionDictionary.plist; sourceTree = "<group>"; };
+		C3890A091D51123800FAFB09 /* PredictionEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PredictionEngine.swift; sourceTree = "<group>"; };
 		CE68583F1D4E6F2C00FD72C5 /* Hueframework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hueframework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6858411D4E6F2D00FD72C5 /* Hueframework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hueframework.h; sourceTree = "<group>"; };
 		CE6858431D4E6F2D00FD72C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C3890A071D51123800FAFB09 /* PredictionEngine */ = {
+			isa = PBXGroup;
+			children = (
+				C3890A081D51123800FAFB09 /* PredictionDictionary.plist */,
+				C3890A091D51123800FAFB09 /* PredictionEngine.swift */,
+			);
+			path = PredictionEngine;
+			sourceTree = "<group>";
+		};
 		CE6858401D4E6F2D00FD72C5 /* Hueframework */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +143,7 @@
 		CEFD12921D4D6544006694B3 /* HueGrok */ = {
 			isa = PBXGroup;
 			children = (
+				C3890A071D51123800FAFB09 /* PredictionEngine */,
 				CE6859B11D50B36900FD72C5 /* playgrounds */,
 				CEFD12931D4D6544006694B3 /* AppDelegate.swift */,
 				CEFD12951D4D6544006694B3 /* ViewController.swift */,
@@ -244,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3890A0A1D51123800FAFB09 /* PredictionDictionary.plist in Resources */,
 				CEFD12A61D4D665A006694B3 /* Podfile in Resources */,
 				CEFD129B1D4D6544006694B3 /* Assets.xcassets in Resources */,
 			);
@@ -272,6 +287,7 @@
 				CE6858501D4E704A00FD72C5 /* PlaygroundProxy.swift in Sources */,
 				CEFD12A81D4D6FF3006694B3 /* HueControllerViewController.swift in Sources */,
 				CEFD12AA1D4D718B006694B3 /* CircleModel.swift in Sources */,
+				C3890A0B1D51123800FAFB09 /* PredictionEngine.swift in Sources */,
 				CEFD12961D4D6544006694B3 /* ViewController.swift in Sources */,
 				CE6859B51D50B49700FD72C5 /* PlaygroundModel.swift in Sources */,
 				CEFD12941D4D6544006694B3 /* AppDelegate.swift in Sources */,
